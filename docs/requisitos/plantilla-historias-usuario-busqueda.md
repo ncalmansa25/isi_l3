@@ -3,8 +3,8 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Fecha | [dd/mm/aaaa] |
-| Versión | [Versión de trabajo] |
+| Fecha | 27/10/2026 |
+| Versión | Versión 1 |
 | Estado | Borrador |
 
 ## Fuentes comunes

@@ -25,25 +25,25 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Buscar mediante una palabra o frase.
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como cliente, quiero poder buscar mediante una palabra o frase una receta, para encontrarla más rápido.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-085; acta, criterios de búsqueda.
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que la búsqueda por texto comprueba si la palabra o frase aparece en el título o en la descripción breve, cuando la palabra o frase no aparece, entonces la búsqueda no devuelve ningún resultado.
+- **CA-02.** Dado la persona debe incluir algún criterio , cuando el usuario no indica ninguno, entonces el sistema solicita un criterio y conserva la búsqueda sin ejecutar..
+- **CA-03.** Dado que ninguna receta cumple los criterios, cuando el sistema indica que no hay resultados para esa búsqueda, entonces conserva los criterios para que la persona pueda modificarlos.
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** Buscar por ingredientes incluidos
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario, quiero buscar los ingredientes incluidos en una receta, para filtrar los resultados acorde a mis preferencias.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-086; acta, criterios de búsqueda.
 
 ### Criterios de aceptación
 
@@ -53,11 +53,11 @@ Como [rol], quiero [capacidad], para [beneficio].
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** Excluir ingredientes
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como usuario, quiero poder excluir ingredientes de las recetas, para facilitar la búsqueda acorde a mis preferencias.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-087; acta, criterios de búsqueda.
 
 ### Criterios de aceptación
 

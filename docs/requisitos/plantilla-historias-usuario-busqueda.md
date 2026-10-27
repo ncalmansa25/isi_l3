@@ -33,9 +33,9 @@ Como cliente, quiero poder buscar mediante una palabra o frase una receta, para 
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado que la búsqueda por texto comprueba si la palabra o frase aparece en el título o en la descripción breve, cuando la palabra o frase no aparece, entonces la búsqueda no devuelve ningún resultado.
-- **CA-02.** Dado la persona debe incluir algún criterio , cuando el usuario no indica ninguno, entonces el sistema solicita un criterio y conserva la búsqueda sin ejecutar..
-- **CA-03.** Dado que ninguna receta cumple los criterios, cuando el sistema indica que no hay resultados para esa búsqueda, entonces conserva los criterios para que la persona pueda modificarlos.
+- **CA-01.** Dado que existen las recetas "Tomate con queso fresco" y "Cazuela de bacalao", cuando el usuario busca "Tomate con queso fresco", entonces el sistema muestra exclusivamente la receta "Tomate con queso fresco".
+- **CA-02.** Dado que existen las recetas "Sopa de pescado" y "Pescado al horno", cuando el usuario busca "Pescado", entonces el sistema ignora las tildes y mayúsculas y muestra las recetas "Sopa de pescado" y "Pescado al horno". 
+- **CA-03.**
 
 ## US-02
 
@@ -47,7 +47,7 @@ Como usuario, quiero buscar los ingredientes incluidos en una receta, para filtr
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que existen los ingredientes "Tomate" y "Lechuga", cuando el usuario busca "Tomate" y "Lechuga", entonces el sistema muestra exclusivamente las recetas que incluyan ambos "Tomate" y "Lechuga".
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
@@ -61,7 +61,7 @@ Como usuario, quiero poder excluir ingredientes de las recetas, para facilitar l
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que existe el ingrediente "Atún" , cuando el usuario elige excluir el ingrediente "Atún", entonces el sistema muestra exclusivamente las recetas que no contengan el ingrediente "Atún".
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
@@ -71,7 +71,7 @@ La revisión abarca US-01, US-02 y US-03. «Aplicado» indica si se ha realizado
 
 | Criterio | Pregunta de revisión | Aplicado | Cumple | Justificación |
 | --- | --- | --- | --- | --- |
-| Independiente | ¿Puede implementarse cada historia y ofrecer un resultado útil sin implementar antes las otras historias del conjunto? Puede compartir infraestructura con ellas. | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
+| Independiente | ¿Puede implementarse cada historia y ofrecer un resultado útil sin implementar antes las otras historias del conjunto? Puede compartir infraestructura con ellas. |N| [Sí/No/Pendiente] | [Historias y motivo] |
 | Negociable | ¿Cada historia explica qué necesita la persona y deja margen para discutir los detalles de la solución, respetando los acuerdos confirmados? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
 | Valiosa | ¿La parte «para…» de cada historia explica el beneficio que obtiene la persona al usar esa capacidad? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
 | Estimable | ¿Están claros el alcance y los datos necesarios para estimar el trabajo de cada historia? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |

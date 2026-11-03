@@ -355,6 +355,8 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 **Reglas y NFR pertinentes:** UR-08; FR-085, FR-086, FR-087, FR-089, FR-099, FR-102 y FR-119; y NFR-004, NFR-005 y NFR-010, conforme al [respaldo del apartado 5](#5-respaldo-en-los-requisitos). Se aplican el [acta de UC-21](../captura/acta-acuerdos-uc-21-buscar-recetas.md), apartado 2, y el [plan de E2](../planificacion/plan-iteracion-e2.md#44-búsqueda-y-consulta-de-recetas), apartado 4.4. Los ingredientes se seleccionan entre los nombres disponibles; todos los incluidos deben estar presentes y ninguno de los excluidos puede aparecer. Solo se muestran recetas publicadas y validadas, ordenadas por fecha de publicación descendente. Cada vista previa incluye título, imagen, calificación promedio y descripción breve, con las indicaciones previstas cuando faltan imagen o valoraciones. El detalle muestra título, imagen si existe, ingredientes, instrucciones, tiempo de cocción, porciones, alias del autor e insignia de validación; FR-056, FR-066 y FR-192 respaldan esos datos. El catálogo no contiene un FR específico para consultar el detalle. No se aplican automáticamente las alergias del perfil.
 
 **Preguntas abiertas:** no se requieren preguntas adicionales para el comportamiento cubierto por el acta. La ausencia de un FR específico para la consulta del detalle queda registrada en el respaldo del modelo; no se resuelve atribuyendo esa función a un requisito distinto.
+<img width="1327" height="856" alt="Activity Diagram1" src="https://github.com/user-attachments/assets/b8eadf57-9286-4a4b-829b-cee4a7c2496a" />
+
 
 ## 7 Continuidad entre iteraciones
 
